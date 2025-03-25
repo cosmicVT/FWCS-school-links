@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Link Hub</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(280deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 500% 500%;
+            animation: gradient 22s ease infinite;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .textbox-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .textbox {
+            margin: 20px 10px;
+            padding: 10px;
+            width: 300px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .small-text {
+            font-size: 14px;
+        }
+
+        .link {
+            color: white;
+            text-decoration: none;
+            padding: 0 5px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .randomize-btn {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.4s ease, transform 0.3s ease;
+        }
+
+        .randomize-btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        .feedback {
+            margin-top: 10px;
+            font-size: 14px;
+            color: lightgreen;
+            display: none;
+        }
+
+        /* New background button styles */
+        #backgroundButton {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 1px solid white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        #backgroundButton:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            transform: scale(1.02);
+        }
+
+        /* New pause button styles */
+        #pauseButton {
+            position: fixed;
+            bottom: 20px;
+            left: 150px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 1px solid white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        #pauseButton:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="small-text">Made by Vann - v1.6 (hint type "download games")</div>
+    <h1>School Link Hub</h1>
+    <div class="textbox-container">
+        <input type="text" class="textbox" id="commandInput" aria-label="Enter command">
+        <button class="randomize-btn" id="randomizeButton" aria-label="Randomize a command">Randomize</button>
+    </div>
+    <div class="small-text">
+        <a href="https://docs.google.com/document/d/13FjP1v4PmYDhXOj4LOQOfCI_Ep_I7gatd8_pGx2pKjQ/edit?tab=t.0" class="link" target="_blank">Commands</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_a-1_15EUxUhOftOBEih3jL7-jp_fttS_M9BjPsGc8JL9lw/viewform" class="link" target="_blank">Suggest/Report</a>
+        <a href="https://drive.google.com/drive/folders/1jsHwQuJv-uzjftgIxoL_JwSo8-93QCNt" class="link" target="_blank">Update</a>
+        <a href="https://docs.google.com/document/d/1Br2k1CYRPcHCEeAqBWCIGqtmjGcees5V5INk2sNotKU/edit?usp=sharing" class="link" target="_blank">Community Discussion Board</a>
+    </div>
+
+    <div class="feedback" id="feedbackMessage">Random command executed!</div>
+
+    <button id="backgroundButton">Background</button> <!-- New background button -->
+    <button id="pauseButton">Pause</button> <!-- Pause button -->
+
+    <script>
+        let isPaused = false; // Track whether the animation is paused or not
+
+        document.getElementById('commandInput').addEventListener('keydown', function (event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const command = this.value.trim().toLowerCase();
+                const links = {
+                    "ksi": "https://www.youtube.com/watch?v=At8v_Yc044Y",
+                    "skibidi": "https://www.youtube.com/watch?v=vscSFhepBVo",
+                    "games": "https://www.hoodamath.com/games/index.html#gsc.tab=0",
+                    "unblock": "https://64.227.120.231/",
+                    "chatgpt": "https://chatgpt.com/",
+                    "youtube": "https://www.youtube.com/",
+                    "rickroll": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+                    "cookie clicker": "https://slope-unblocked-10x.github.io/game.html?target=53",
+                    "games+": "https://slope-unblocked-10x.github.io/",
+                    "pool suite": "https://poolsuite.net/",
+                    "point": "https://pointerpointer.com/",
+                    "the useless web": "https://theuselessweb.com/",
+                    "little alchemy": "https://littlealchemy.com/",
+                    "murmur": "https://asoftmurmur.com/",
+                    "draw": "https://sketch.io/sketchpad/",
+                    "beat maker": "https://musiclab.chromeexperiments.com/Song-Maker",
+                    "piano": "https://www.onlinepianist.com/virtual-piano",
+                    "download games": "https://drive.google.com/drive/folders/1cmo_e9VAAYIc8egbuYnZIbW0jcMz_vJD",
+                    "block blast": "https://reunbozdo.github.io/"
+                };
+
+                if (links[command]) {
+                    window.open(links[command], '_blank');
+                } else {
+                    alert("Command not recognized. Please make sure you entered the code correctly or that you are on the newest version from the download link, if nothing works reply to the suggest/report link below the box.");
+                }
+            }
+        });
+
+        document.getElementById('randomizeButton').addEventListener('click', function () {
+            const links = {
+                "ksi": "https://www.youtube.com/watch?v=At8v_Yc044Y",
+                "skibidi": "https://www.youtube.com/watch?v=vscSFhepBVo",
+                "games": "https://www.hoodamath.com/games/index.html#gsc.tab=0",
+                "unblock": "https://64.227.120.231/",
+                "chatgpt": "https://chatgpt.com/",
+                "rickroll": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+                "cookie clicker": "https://slope-unblocked-10x.github.io/game.html?target=53",
+                "games+": "https://slope-unblocked-10x.github.io/",
+                "pool suite": "https://poolsuite.net/",
+                "point": "https://pointerpointer.com/",
+                "the useless web": "https://theuselessweb.com/",
+                "little alchemy": "https://littlealchemy.com/",
+                "murmur": "https://asoftmurmur.com/",
+                "draw": "https://sketch.io/sketchpad/",
+                "beat maker": "https://musiclab.chromeexperiments.com/Song-Maker",
+                "piano": "https://www.onlinepianist.com/virtual-piano",
+                "block blast": "https://reunbozdo.github.io/"
+            };
+
+            const commands = Object.keys(links);
+            const randomIndex = getRandomInt(0, commands.length - 1);
+            const randomCommand = commands[randomIndex];
+
+            const commandInput = document.getElementById('commandInput');
+            commandInput.value = randomCommand;
+
+            const event = new KeyboardEvent('keydown', {
+                key: 'Enter'
+            });
+            commandInput.dispatchEvent(event);
+
+            // Display feedback message
+            const feedbackMessage = document.getElementById('feedbackMessage');
+            feedbackMessage.style.display = 'block';
+            setTimeout(() => {
+                feedbackMessage.style.display = 'none';
+            }, 2000); // Hide feedback after 5 seconds
+        });
+
+        document.getElementById('backgroundButton').addEventListener('click', function () {
+            const colors = [
+                'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet',
+                'cyan', 'magenta', 'pink', 'lime', 'purple', 'brown', 'gray', 'gold'
+            ];
+
+            const getRandomColor = () => colors[Math.floor(Math.random() * colors.length)];
+
+            document.body.style.background = `linear-gradient(280deg, ${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()})`;
+            document.body.style.backgroundSize = '400% 400%';
+            document.body.style.animation = 'gradient 22s ease infinite';
+        });
+
+        // Toggle the pause/resume functionality for the background animation
+        document.getElementById('pauseButton').addEventListener('click', function () {
+            if (isPaused) {
+                // Resume the animation
+                document.body.style.animationPlayState = 'running';
+                this.textContent = 'Pause'; // Change button text to 'Pause'
+            } else {
+                // Pause the animation
+                document.body.style.animationPlayState = 'paused';
+                this.textContent = 'Resume'; // Change button text to 'Resume'
+            }
+            isPaused = !isPaused; // Toggle the state
+        });
+
+        function getRandomInt(min, max) {
+            const range = max - min + 1;
+            const randomValues = new Uint32Array(1);
+            window.crypto.getRandomValues(randomValues);
+            return min + (randomValues[0] % range);
+        }
+    </script>
+</body>
+
+</html>
