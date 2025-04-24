@@ -36,23 +36,30 @@ More games - another unblocked game website
 CHANGE LOG:
 1.0 - first version started with a few links and the help download and suggest links were added
 as commands.
+
 1.1 - more links added and some minor appearance fixes.
+
 1.2 - more links and a patch to some words being different colors.
+
 1.3 - added a randomizer button, made the textbox clear, made the background transition
 slower, added a new text for when you enter a wrong code, and added a minecraft link but it
 was blocked immediately 🙁.
+
 1.4 - added drawing link, slightly changed background angle, took out slow roads because
 website vanished, fixed a glitch where text still existed in the textbox but it was invisible, made
 the random button do more random results, added small animation to the randomizer button as
 well as button feedback, general fixes and optimization, added a button at the bottom left that
 changes the color of the background. UPDATED 1/29/25
+
 1.5 - Added beat maker link, added button to pause and resume background animation, added
 online piano. UPDATED 2/24/25
+
 1.6 - patched cookie clicker, added downloaded games link to install games ON YOUR
 COMPUTER, added a discussion board link below the search box where you can freely talk to
 others with the website through means of a google doc, changed all 3 link names to better say
 what they are/do, added block blast game link, uploaded website to github, no longer need to
 update if you use the website, Fixed background button animation. UPDATED 3/24/25
+
 1.7 - Completely revamped how the website runs, shortly after I uploaded the website it got
 blocked ao I got to work, from now on the website automatically runs through a proxy when
 accessed through the doc or the old downloadable 1.6 version, it will not open through the
