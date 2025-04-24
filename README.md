@@ -11,6 +11,8 @@ WARNING: Because this is ran through a proxy be aware of misc pop ups and redire
 
 
 COMMANDS:
+Spotify - opens spotify
+Tiktok - opens tiktok
 Download games - Download unblockable games onto your computer, more games soon
 Games - games duh
 Unblock - url unblocker (be careful of pop up ads that redirect you)
