@@ -1,6 +1,5 @@
 CURRENTLY ON VERSION 1.7,
-https://108.181.4.237/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaW
-N2dC5naXRodWIuaW8
+https://108.181.4.237/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
 This is an unblocker but only for links in the website, this is a collection of a bunch of unblocked/fun things to do
 in school just organized into a nice app, every command leads to a different website that's not
 blocked so you can pass the time.
