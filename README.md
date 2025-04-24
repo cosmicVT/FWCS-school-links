@@ -1,5 +1,5 @@
 CURRENTLY ON VERSION 1.7,
-https://108.181.4.237/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
+https://208.87.241.209/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
 This is an unblocker but only for links in the website, this is a collection of a bunch of unblocked/fun things to do
 in school just organized into a nice app, every command leads to a different website that's not
 blocked so you can pass the time.
@@ -58,5 +58,4 @@ github so I made another repository where you can open or download it through gi
 like, and the cherry on top, all websites opened will automatically be unblocked because of the
 proxy so literally nothing can get blocked ever, expect more better websites soon. UPDATED
 4/24/25
-https://108.181.4.237/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIua
-W8
+https://208.87.241.209/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
