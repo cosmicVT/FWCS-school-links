@@ -4,6 +4,9 @@ N2dC5naXRodWIuaW8
 This is an unblocker but only for links in the website, this is a collection of a bunch of unblocked/fun things to do
 in school just organized into a nice app, every command leads to a different website that's not
 blocked so you can pass the time.
+
+
+
 COMMANDS:
 Download games - Download unblockable games onto your computer, more games soon
 Games - games duh
@@ -22,6 +25,9 @@ Beat Maker - online music maker
 Piano - online keyboard piano
 Block Blast - play block blast online
 More games - another unblocked game website
+
+
+
 CHANGE LOG:
 1.0 - first version started with a few links and the help download and suggest links were added
 as commands.
