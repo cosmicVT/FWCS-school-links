@@ -160,8 +160,6 @@
                 event.preventDefault();
                 const command = this.value.trim().toLowerCase();
                 const links = {
-                    "ksi": "https://www.youtube.com/watch?v=At8v_Yc044Y",
-                    "skibidi": "https://www.youtube.com/watch?v=vscSFhepBVo",
                     "games": "https://www.hoodamath.com/games/index.html#gsc.tab=0",
                     "unblock": "https://64.227.120.231/",
                     "chatgpt": "https://chatgpt.com/",
@@ -179,7 +177,9 @@
                     "piano": "https://www.onlinepianist.com/virtual-piano",
                     "download games": "https://drive.google.com/drive/folders/1cmo_e9VAAYIc8egbuYnZIbW0jcMz_vJD",
                     "block blast": "https://reunbozdo.github.io/",
-                    "more games": "https://geography-lessons.github.io/"
+                    "more games": "https://geography-lessons.github.io/",
+                    "spotify": "https://open.spotify.com/",
+                    "tiktok": "https://www.tiktok.com/en/"
                 };
 
                 if (links[command]) {
@@ -192,11 +192,7 @@
 
         document.getElementById('randomizeButton').addEventListener('click', function () {
             const links = {
-                "ksi": "https://www.youtube.com/watch?v=At8v_Yc044Y",
-                "skibidi": "https://www.youtube.com/watch?v=vscSFhepBVo",
                 "games": "https://www.hoodamath.com/games/index.html#gsc.tab=0",
-                "unblock": "https://64.227.120.231/",
-                "chatgpt": "https://chatgpt.com/",
                 "rickroll": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
                 "cookie clicker": "https://slope-unblocked-10x.github.io/game.html?target=53",
                 "games+": "https://slope-unblocked-10x.github.io/",
@@ -209,7 +205,9 @@
                 "beat maker": "https://musiclab.chromeexperiments.com/Song-Maker",
                 "piano": "https://www.onlinepianist.com/virtual-piano",
                 "block blast": "https://reunbozdo.github.io/",
-                "more games": "https://geography-lessons.github.io/"
+                "more games": "https://geography-lessons.github.io/",
+                "spotify": "https://open.spotify.com/",
+                "tiktok": "https://www.tiktok.com/en/"
             };
 
             const commands = Object.keys(links);
