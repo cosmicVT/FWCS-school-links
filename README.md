@@ -12,23 +12,39 @@ WARNING: Because this is ran through a proxy be aware of misc pop ups and redire
 
 COMMANDS:
 Spotify - opens spotify
+
 Tiktok - opens tiktok
+
 Download games - Download unblockable games onto your computer, more games soon
+
 Games - games duh
+
 Unblock - url unblocker (be careful of pop up ads that redirect you)
-Chatgpt - chatgpt duh might need sign in idk
+
 Youtube - youtube genius
+
 Cookie clicker - clicker game, make sure to save
+
 Games+ - really good big unblocked game website (CREATOR #1 PICK)
+
 Point - boredom cure, real person pointing idk
+
 Pool suite - cool music retro lounge
+
 The useless web - random websites
+
 Little alchemy - make elements
+
 Murmur - white noise
+
 Draw - Draw online
+
 Beat Maker - online music maker
+
 Piano - online keyboard piano
+
 Block Blast - play block blast online
+
 More games - another unblocked game website
 
 
