@@ -6,6 +6,10 @@ blocked so you can pass the time.
 
 
 
+WARNING: Because this is ran through a proxy be aware of misc pop ups and redirects to other websites, make sure to close them as soon as you can, most arent harmful but you should take it as they all are.
+
+
+
 COMMANDS:
 Download games - Download unblockable games onto your computer, more games soon
 Games - games duh
