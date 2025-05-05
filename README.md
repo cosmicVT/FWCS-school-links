@@ -1,12 +1,11 @@
 CURRENTLY ON VERSION 1.7,
-https://108.181.5.29/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
-This is an unblocker but only for links in the website, this is a collection of a bunch of unblocked/fun things to do
+https://cosmicvt.github.io/FWCS-school-links/   OPEN THE LINK THROUGH THIS PROXY IF BLOCKED,   https://64.227.120.231/
+WARNING: Because this is ran through a proxy be aware of misc pop ups and redirects to other websites, make sure to close them as soon as you can, most arent harmful but you should take it as they all are.
+
+This is not an unblocker, this is a collection of a bunch of unblocked/fun things to do
 in school just organized into a nice app, every command leads to a different website that's not
 blocked so you can pass the time.
 
-
-
-WARNING: Because this is ran through a proxy be aware of misc pop ups and redirects to other websites, make sure to close them as soon as you can, most arent harmful but you should take it as they all are.
 
 
 
@@ -83,4 +82,4 @@ github so I made another repository where you can open or download it through gi
 like, and the cherry on top, all websites opened will automatically be unblocked because of the
 proxy so literally nothing can get blocked ever, expect more better websites soon. UPDATED
 4/24/25
-https://108.181.5.29/FWCS-school-links/?__cpo=aHR0cHM6Ly9jb3NtaWN2dC5naXRodWIuaW8
+https://cosmicvt.github.io/FWCS-school-links/
